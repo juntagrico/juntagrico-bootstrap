@@ -1,0 +1,12 @@
+// import only the necessary Bootstrap files
+@import "scss/_functions"; 
+@import "scss/_variables";
+
+// begin customization
+
+@import "scss/bootstrap";
+
+// end customization
+
+// finally, import Bootstrap to set the changes!
+@import "scss/bootstrap-grid";
