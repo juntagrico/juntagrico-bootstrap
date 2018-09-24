@@ -1,8 +1,19 @@
 $font-family-sans-serif:      "Source Sans Pro";
+$font-size-base:              0.778rem;
+$h5-font-size:                0.778rem;
 $btn-font-weight:             light;
+$dt-font-weight:              normal;
 $green:                       #66cc66;
+$yiq-contrasted-threshold:    162;
 $alert-border-radius:         5px;
-$alert-link-font-weight:      regular;
-$badge-font-weight:           regular;
-$close-font-weight:           regular;
+$alert-link-font-weight:      normal;
+$badge-font-weight:           normal;
+$close-font-weight:           normal;
+$table-cell-padding:          0.445rem;
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 100%,
+  xl: 100%
+);
 //$alert-bg-level:              -10 !default;
