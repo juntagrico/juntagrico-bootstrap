@@ -1,6 +1,6 @@
 {
   "name": "juntagrico-bootstrap",
-  "version": "4.3.1",
+  "version": "4.6.2",
   "scripts": {
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 juntagrico_bootstrap.scss dist/css/bootstrap.css && node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 juntagrico_bootstrap-grid.scss dist/css/bootstrap-grid.css && node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 juntagrico_bootstrap-reboot.scss dist/css/bootstrap-reboot.css",
     "css-minify": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output dist/css/bootstrap.min.css dist/css/bootstrap.css && cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output dist/css/bootstrap-grid.min.css dist/css/bootstrap-grid.css && cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output dist/css/bootstrap-reboot.min.css dist/css/bootstrap-reboot.css",
@@ -8,10 +8,10 @@
     "dist": "npm-run-all --sequential css-compile css-prefix css-minify"
   },
   "devDependencies": {
-    "autoprefixer": "latest",
-    "clean-css-cli": "latest",
-    "postcss-cli": "latest",
-    "npm-run-all": "latest",
-    "node-sass": "latest"
+    "autoprefixer": "^9.4.7",
+    "clean-css-cli": "^4.2.1",
+    "postcss-cli": "^6.1.1",
+    "npm-run-all": "^4.1.5",
+    "node-sass": "^4.11.0"
   }
 }
